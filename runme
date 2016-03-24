@@ -1,5 +1,14 @@
-source ~/.profile
+DATE=$(date)
+PWD=$(pwd)
+MONGO_DB="mongodb://10.101.101.3:27017/msprinter"
+PORT=4000
+SETTINGS="$PWD/settings.json"
 
-npm i react-native-webpack-server -g
+echo $DATE
+echo "Starting all processes owned by $PWD ..."
+
+[ ! -f ./node_modules ] && npm install
+#[ ! -f ./bower_components ] && bower install
+# npm install && bower install
+# MONGO_URL=$MONGO_DB $HOME/.meteor/meteor --production --settings $SETTINGS --port $PORT
 npm start
-
