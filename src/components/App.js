@@ -16,7 +16,7 @@ const App = ({
 }) =>
   <View style={styles.container}>
     <Text style={styles.welcome}>
-      Welcome to React Native!
+      Printer Dot Life!
     </Text>
     <Text style={styles.instructions}>
       To get started, edit index.{Platform.OS}.js
