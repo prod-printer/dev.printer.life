@@ -19,7 +19,7 @@ const App = ({
       Printer Dot Life!
     </Text>
     <Text style={styles.instructions}>
-      To get started, edit index.{Platform.OS}.js
+      Save the Trees!  Print to the Web!
     </Text>
     <Text style={styles.instructions}>
       {instructions}
