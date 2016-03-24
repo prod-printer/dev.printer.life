@@ -1,0 +1,50 @@
+{
+  "name": "App",
+  "version": "0.1.0",
+  "description": "A forward-looking approach to building with React Native.",
+  "author": "Josh Habdas <jhabdas@gmail.com> (http://habd.as)",
+  "license": "MIT",
+  "keywords": [
+    "mobile",
+    "native",
+    "javascript",
+    "react-native",
+    "starter-kit",
+    "webpack",
+    "babel",
+    "eslint",
+    "greenkeeper",
+    "es2015"
+  ],
+  "scripts": {
+    "android-setup-port": "adb reverse tcp:8081 tcp:8080",
+    "bundle": "rnws bundle",
+    "test": "eslint src",
+    "start": "rnws start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhabdas/react-native-webpack-starter-kit"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2 <4"
+  },
+  "dependencies": {
+    "react-native": "^0.21.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-1": "^6.3.13",
+    "eslint": "~2.2.0",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-react": "^4.0.0",
+    "react-native-webpack-server": "^0.8.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

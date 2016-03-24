@@ -1,0 +1,5 @@
+source ~/.profile
+
+npm i react-native-webpack-server -g
+npm start
+
